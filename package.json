@@ -1,0 +1,19 @@
+{
+  "name": "volunteer-princeton",
+  "version": "1.0.0",
+  "description": "Web application to look up Facnsters in Nazareth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veredrec/Volunteer-Princeton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veredrec/Volunteer-Princeton/issues"
+  },
+  "homepage": "https://github.com/veredrec/Volunteer-Princeton#readme"
+}
