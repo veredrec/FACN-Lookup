@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/veredrec/Volunteer-Princeton/issues"
   },
-  "homepage": "https://github.com/veredrec/Volunteer-Princeton#readme"
+  "homepage": "https://github.com/veredrec/Volunteer-Princeton#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
