@@ -1,10 +1,11 @@
 {
   "name": "volunteer-princeton",
   "version": "1.0.0",
-  "description": "Web application to look up Facnsters in Nazareth",
+  "description": "Web application to look up places to volunteer in and around Princetno, NJ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/veredrec/Volunteer-Princeton#readme",
   "dependencies": {
-    "express": "^4.15.4"
+    "env2": "^2.2.0",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "pg": "^7.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

@@ -1,6 +1,6 @@
 BEGIN;
 
-DROP TABLE IF EXISTS voluneer;
+DROP TABLE IF EXISTS volunteer;
 
 CREATE TABLE volunteer (
   id        SERIAL  PRIMARY KEY,
