@@ -1,0 +1,10 @@
+<section class="gallery">
+  {{#each places}}
+      <div class="place-container">
+        <img class="image" src="{{this.image}}">
+        <h3 class="name">{{this.name}}</h3>
+        <h4>{{this.category}}</h4>
+        <button class="more"><a href="/places/{{this}}" class="link">Read More</a></button>
+      </div>
+  {{/each}}
+</section>
