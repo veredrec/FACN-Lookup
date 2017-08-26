@@ -7,6 +7,6 @@ dbconnection.query(buildScript, (err, res) => {
   if (err) {
     console.log("Error with database ", err);
   } else {
-    console.log('Volunteer table succesfully created :', res)  
+    console.log('Volunteer table succesfully created');
   }
 })
