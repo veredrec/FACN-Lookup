@@ -4,7 +4,6 @@ const getOptions = require('./../queries/getOptions.js');
 const router = express.Router();
 
 const home = require('./home');
-// const places = require('./../queries/getOptions');
 // const place = require('./../queries/getPlace');
 const error = require('./error');
 
