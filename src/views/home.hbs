@@ -1,9 +1,9 @@
 <section class="gallery">
   {{#each places}}
       <div class="place-container">
+        <h2 class="name">{{this.name}}</h2>
         <img class="image" src="{{this.image}}" class="image">
-        <h3 class="name">{{this.name}}</h3>
-        <h4>{{this.category}}</h4>
+        <h3 class="category">{{this.category}}</h3>
         <button class="more"><a href="/places/{{this}}" class="link">Read More</a></button>
       </div>
   {{/each}}

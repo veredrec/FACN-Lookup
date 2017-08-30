@@ -1,5 +1,14 @@
 body {
   background-color: #F0FEBE;
+  font-family: 'Philosopher', sans-serif;
+}
+.page-title, .subtitle {
+  color: #1F443E;
+  font-size: 2.2em;
+  text-align: center;
+}
+.subtitle {
+  font-size: 2em;
 }
 .gallery {
   display: flex;
@@ -7,14 +16,52 @@ body {
   flex-wrap: wrap;
 }
 .place-container {
-  width: 500px;
-  height: 500px;
-  border: 2px solid black;
+  width: 400px;
+  height: auto;
+  border: 2px solid #C7D39D;
+  margin: 1em;
+}
+.name, .category {
+  text-align: center;
+  color: #3E1F44;
+}
+.name {
+  font-size: 1.5em;
+}
+.category {
+  font-size: 1.2em;
 }
 .image {
   width: 200px;
   height: 200px;
+  display: block;
+  margin: 2em auto;
+  border: 1px solid #3E1F44;
+  padding: 0.2em;
+  border-radius: 10%;
 }
+.more {
+  width: auto;
+  display: block;
+  margin: 1em auto;
+  background-color: #3E1F44;
+}
+.link {
+  color: #F0FEBE;
+  text-decoration: none;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  padding: 0.5em;
+
+}
+.footer {
+  color: #3E1F44;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* style for error page */
 .error, .error-message  {
   text-align: center;
   font-size: 2em;
