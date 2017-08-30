@@ -1,3 +1,17 @@
 body {
-  background-color: grey;
+  background-color: #F0FEBE;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.place-container {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+}
+.image {
+  width: 200px;
+  height: 200px;
 }
