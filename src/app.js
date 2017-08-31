@@ -3,7 +3,7 @@ const exphbs = require('express-handlebars');
 const path = require('path');
 const favicon = require('serve-favicon');
 const controllers = require('./controllers/router');
-// const helpers = require('./views/helpers');
+const helpers = require('./views/helpers/helpers');
 
 const app = express();
 
@@ -16,7 +16,7 @@ app.engine(
     layoutsDir: path.join(__dirname, 'views', 'layouts'),
     partialsDir: path.join(__dirname, 'views', 'partials'),
     defaultLayout: 'main',
-    // helpers: helpers
+    helpers: helpers
   }));
 
 app.set('port', process.env.PORT || 3000);
